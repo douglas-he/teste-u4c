@@ -1,7 +1,7 @@
 import { Request, ResponseToolkit } from "@hapi/hapi";
 import { UserType, VehiclesType } from '../utils/types';
 import { getUser } from "../services/user";
-import { createVehicleObject, saveVehicle } from "../services/vehicles";
+import { createVehicleObject, saveVehicle } from "../services/vehicle";
 
 export const createVehicle = async (req : Request , res: ResponseToolkit) => {
   const {

@@ -1,7 +1,7 @@
 const { faker } = require('@faker-js/faker');
 const server = require('../index');
 const serviceUser = require("../services/user");
-const serviceVehicle = require("../services/vehicles");
+const serviceVehicle = require("../services/vehicle");
 
 const { mockSaveUser, mockSaveVehicle } = require('../../mocks');
 

@@ -5,7 +5,7 @@ import JWT from "jsonwebtoken";
 import { UserType, VehiclesType, IncidentType } from '../utils/types';
 import { createUserObect, getUser, saveUser } from '../services/user';
 import { createIncidentObject, saveIncident } from '../services/incident';
-import { getVehicle } from '../services/vehicles';
+import { getVehicle } from '../services/vehicle';
 
 export const createIncident = async (req: Request, res: ResponseToolkit) => {
   const {

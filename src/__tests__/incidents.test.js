@@ -5,7 +5,7 @@ const generator =  require('generate-password');
 const { mockSaveUser, mockSaveVehicle, mockSaveIncident } = require('../../mocks');
 const server = require('../index');
 const serviceUser = require("../services/user");
-const serviceVehicle = require("../services/vehicles");
+const serviceVehicle = require("../services/vehicle");
 const serviceIncident = require("../services/incident");
 
 
