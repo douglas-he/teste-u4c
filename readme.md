@@ -2,7 +2,7 @@
 
 ### Api de eventos de proteção veicular
 
-### Principais Tecnoligas
+### Principais Tecnologias
 
 - Typescript
 - HapiJS
